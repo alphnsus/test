@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.n8n.io)",
+      "Bash(curl -s \"https://docs.n8n.io/integrations/creating-nodes/deploy/submit-community-nodes/\")",
+      "Bash(grep -v '^$')"
+    ]
+  }
+}

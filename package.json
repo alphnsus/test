@@ -1,16 +1,22 @@
 {
   "name": "@alphnsus/hello-world",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple hello world npm package",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
-  "keywords": ["hello", "world"],
+  "keywords": [
+    "hello",
+    "world"
+  ],
   "author": "alphnsus",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/alphnsus/test"
+  },
+  "dependencies": {
+    "@alphnsus/hello-world": "^1.0.0"
   }
 }
