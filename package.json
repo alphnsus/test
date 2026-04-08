@@ -14,9 +14,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alphnsus/test"
+    "url": "git+https://github.com/alphnsus/test.git"
   },
-  "dependencies": {
-    "@alphnsus/hello-world": "^1.0.0"
-  }
+  "files": [
+    "index.js",
+    "README.md"
+  ]
 }
